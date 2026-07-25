@@ -195,70 +195,62 @@
     <section id="projects" class="projects">
       <div class="container">
         <h2 class="section-title pt-0">Projects</h2>
-        <div class="row justify-content-senter">
-          <div class="col-md-4 mb-3 d-flex">
+        <div class="row justify-content-center">
+          <div class="col-md-4 mb-4 d-flex">
             <div class="card">
               <!-- <img src="img/project1.png" class="card-img-top" alt="Project 1" /> -->
               <div class="card-body">
                 <h6 class="card-title">Development of a Testing System for Quality Inspection of Assembled EV Battery Packs</h6>
                 <p class="card-text">
-                  Another important component in electric vehicle production is the battery pack, which serves as the main power source of the vehicle. Due to its critical role, a dedicated inspection system is required to ensure production
-                  consistency and quality assurance. The developed device is designed to assist the quality assurance process after battery cells are assembled into the battery pack. The system verifies the condition of each battery cell by
-                  communicating with the battery management MCU through Controller Area Network (CAN) communication.
+                  Developed a battery pack inspection system for electric vehicle production. The system communicates with the Battery Management System through CAN to verify individual cell conditions and support quality assurance after
+                  assembly.
                 </p>
               </div>
             </div>
           </div>
-          <div class="col-md-4 mb-3 d-flex">
+          <div class="col-md-4 mb-4 d-flex">
             <div class="card">
               <!-- <img src="img/project1.png" class="card-img-top" alt="Project 1" /> -->
               <div class="card-body">
                 <h6 class="card-title">Smart Control and Monitoring System for Street Lighting using Power Line Carrier Communication (PLCC)</h6>
                 <p class="card-text">
-                  This project focused on monitoring system and controller for public street lighting. There are two different compartment of this project, first is PCB control that installed on the street lighting to monitor and control
-                  the lighting. Second compartment is KWH meter that collect data from PCB control through power line carrier communication and send the data to cloud for remote monitoring. The PCB control itself consist of two separated
-                  board which is PLCC MCU board and supply board.
+                  Developed a smart street-lighting monitoring and control system using Power Line Carrier Communication (PLCC). A control unit installed on each streetlight sends operational data to a smart energy meter, which forwards it
+                  to the cloud for remote monitoring and control.
                 </p>
               </div>
             </div>
           </div>
-          <div class="col-md-4 mb-3 d-flex">
+          <div class="col-md-4 mb-4 d-flex">
             <div class="card">
               <!-- <img src="img/project1.png" class="card-img-top" alt="Project 1" /> -->
               <div class="card-body">
                 <h6 class="card-title">Dynamometer for Running and Braking Tests to Enhance Final Inspection in Electric Motorcycle Production</h6>
                 <p class="card-text">
-                  Final inspection of electric vehicle is most important stage of electric vehicle production. There are two section of this device, first section is for running test that allow to measure velocity and maximum speed of
-                  electric vehicle. Second section is braking test that measure maximum torque of electric vehicle while barking in specific velocity condition. The device integrated with PC station that allow for data acquisition. UART or
-                  serial communication used to connect between microcontroller and PC station, inspector can view every data served through UI or dashboard built using Node-RED.
+                  Developed a final inspection system for electric vehicles that performs running and braking tests, including speed and torque measurement. Test data is transmitted from the microcontroller to a PC through UART and
+                  displayed on a Node-RED dashboard for real-time monitoring.
                 </p>
               </div>
             </div>
           </div>
         </div>
-        <div class="row justify-content-senter">
-          <div class="col-md-4 mb-3 d-flex">
+        <div class="row justify-content-center">
+          <div class="col-md-4 mb-4 d-flex">
             <div class="card">
               <!-- <img src="img/project1.png" class="card-img-top" alt="Project 1" /> -->
               <div class="card-body">
                 <h6 class="card-title">Development of an EV Relay and Fuse Box Testing System for Quality Inspection</h6>
                 <p class="card-text">
-                  A relay & fuse box tester is a specialized testing device designed as part of the quality control (QC) process on the production line for electric vehicle fuse boxes. Reliable of fuse box is critical as part for main
-                  distribution and protection for electricity of electric vehicle. The device designed based on STM32 to automate electrical continuity and functional validation during QC production, improving testing consistency and
-                  reducing manual inspection error.
+                  Developed an STM32-based relay and fuse box tester for electric vehicle production. The system automates continuity and functional testing to improve quality-control consistency and reduce manual inspection errors.
                 </p>
               </div>
             </div>
           </div>
-          <div class="col-md-4 mb-3 d-flex">
+          <div class="col-md-4 mb-4 d-flex">
             <div class="card">
               <!-- <img src="img/project1.png" class="card-img-top" alt="Project 1" /> -->
               <div class="card-body">
                 <h6 class="card-title">Design and Development of an IoT-Based Dimmable LED Driver for Energy-Efficient Lighting</h6>
-                <p class="card-text">
-                  This project focuses on the development of a 20W LED driver system. The device consists of two different LED types: a 6500K cool white LED and a 3500K warm white LED. The lighting system can be controlled through the Home
-                  Assistant application, allowing users to perform brightness dimming and scheduling functions.
-                </p>
+                <p class="card-text">Developed a 20 W smart LED driver with adjustable cool-white and warm-white lighting. The system integrates with Home Assistant for remote brightness control and automated scheduling.</p>
               </div>
             </div>
           </div>
@@ -282,9 +274,24 @@
 
     <!-- Contact Section -->
     <section id="contact" class="contact">
-      <div class="container">
-        <h2 class="section-title pt-0 pb-0">Contact</h2>
-        <p class="text-center">Feel free to reach out to me!</p>
+      <div class="container text-center">
+        <h2 class="section-title contact-title">Contact</h2>
+
+        <!-- <p class="contact-text">Feel free to reach out to me!</p> -->
+
+        <div class="contact-links">
+          <a href="https://www.linkedin.com/in/gostfarelputra/" target="_blank" rel="noopener noreferrer" class="contact-card" aria-label="LinkedIn">
+            <img src="https://raw.githubusercontent.com/gostfarelputra/Icon-Assets/refs/heads/main/icon_img/linkedin.svg" alt="LinkedIn" />
+          </a>
+
+          <a href="https://www.instagram.com/farel_mp/" target="_blank" rel="noopener noreferrer" class="contact-card" aria-label="Instagram">
+            <img src="https://raw.githubusercontent.com/gostfarelputra/Icon-Assets/refs/heads/main/icon_img/instagram.svg" alt="Instagram" />
+          </a>
+
+          <a href="mailto:gostfarelputra@gmail.com" class="contact-card" aria-label="Email">
+            <img src="https://raw.githubusercontent.com/gostfarelputra/Icon-Assets/refs/heads/main/icon_img/mail.svg" alt="Email" />
+          </a>
+        </div>
       </div>
     </section>
     <!-- Contact Section -->
