@@ -1,7 +1,8 @@
 :root {
-  --primary-color: #88bda4;
-  --secondary-color: #e6f2dd;
-  --accent-color: #659287;
+  --primary-color: #088395;
+  --secondary-color: #7ab2b2;
+  --additional-color: #ebf4f6;
+  --accent-color: #09637e;
   --dark-color: #212529;
   --light-color: #ffffff;
   --text-dark: #212529;
@@ -120,7 +121,7 @@ a {
 }
 
 .profile {
-  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+  background: linear-gradient(135deg, var(--secondary-color), var(--additional-color));
   color: white;
   padding-top: 5rem;
 }
@@ -170,6 +171,11 @@ a {
   display: inline;
 }
 
+.profile-wave-tools svg {
+  display: inline;
+  width: 100%;
+}
+
 .about-title {
   color: var(--accent-color);
 }
@@ -205,7 +211,7 @@ a {
 }
 
 .projects {
-  background-color: var(--secondary-color);
+  background: var(--secondary-color);
   padding-bottom: 0;
 }
 
@@ -227,6 +233,8 @@ a {
 .card-title {
   font-weight: 600;
   color: var(--accent-color);
+  border-left: 3px solid var(--primary-color);
+  padding-left: 5px;
 }
 
 .card-text {
