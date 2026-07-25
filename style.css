@@ -254,7 +254,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 64px;
+  gap: 5px;
 }
 
 .contact-card {
@@ -272,8 +272,8 @@ a {
 }
 
 .contact-card img {
-  width: 32px;
-  height: 32px;
+  width: 24px;
+  height: 24px;
   object-fit: contain;
 }
 
