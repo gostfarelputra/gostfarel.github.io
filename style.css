@@ -168,9 +168,15 @@ a {
   margin-top: -70px;
 }
 
+.about-title {
+  color: var(--accent-color);
+}
+
 .about-text {
   text-align: justify;
   text-justify: inter-word;
+  font-weight: 500;
+  color: var(--primary-color);
 }
 
 .skill-item {
@@ -213,4 +219,14 @@ a {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   align-items: center;
+}
+
+.card-title {
+  font-weight: 600;
+  color: var(--accent-color);
+}
+
+.card-text {
+  font-weight: 400;
+  color: var(--primary-color);
 }
